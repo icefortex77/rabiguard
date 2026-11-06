@@ -1,0 +1,4 @@
+@import "tailwindcss";
+body { background: #eef3f2; color: #15292e; font-family: var(--font-body), system-ui, sans-serif; }
+:focus-visible { outline: 3px solid #0e7c86; outline-offset: 2px; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
