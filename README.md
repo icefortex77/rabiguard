@@ -45,20 +45,18 @@ Gagal di tengah jalan → formulir pilihan ganda + klasifikasi lokal + nomor 112
 Prasyarat: Node.js 18.18 atau lebih baru.
 ```bash
 npm install
-cp .env.example .env.local     # Windows: copy .env.example .env.local
-# isi GEMINI_API_KEY di .env.local
-npm run dev                    # http://localhost:3000
+npm run dev  # http://localhost:3000
 ```
 Untuk produksi: `npm run build` lalu `npm start`. Di Vercel, set `GEMINI_API_KEY` di Environment Variables.
 
 ## Deployment URL
-[ISI URL VERCEL]
+https://rabiguard.vercel.app
 
 ## Demo Account
 Tidak diperlukan (tanpa login).
 
 ## AI & Technology Disclosure
-| Komponen | Isi |
+| Komponen |
 |---|---|
 | Nama Produk | RabiGuard |
 | Framework / Frontend | Next.js 15 (React 19), TypeScript, Tailwind CSS 4 |
